@@ -1,0 +1,11 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/liblinux_raw_sys-0fa507e725a7f2fe.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/elf.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/errno.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/general.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/ioctl.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/liblinux_raw_sys-0fa507e725a7f2fe.rlib: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/elf.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/errno.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/general.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/ioctl.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/linux_raw_sys-0fa507e725a7f2fe.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/elf.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/errno.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/general.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/ioctl.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/elf.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/errno.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/general.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.12/src/x86_64/ioctl.rs:

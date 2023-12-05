@@ -1,0 +1,324 @@
+cargo:rustc-flags=-l GL
+cargo:rustc-flags=-l SDL2
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+DEBUG = Some("true")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "src/cimgui/imgui/" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui.o" "-c" "src/cimgui/imgui/imgui.cpp"
+cargo:warning=In file included from src/cimgui/imgui/imgui.cpp:530:
+cargo:warning=src/cimgui/imgui/imgui_internal.h: In constructor ‘ImGuiTextEditState::ImGuiTextEditState()’:
+cargo:warning=src/cimgui/imgui/imgui_internal.h:299:61: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct ImGuiTextEditState’; use assignment or value-initialization instead [-Wclass-memaccess]
+cargo:warning=  299 |     ImGuiTextEditState()                            { memset(this, 0, sizeof(*this)); }
+cargo:warning=      |                                                       ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_internal.h:285:18: note: ‘struct ImGuiTextEditState’ declared here
+cargo:warning=  285 | struct IMGUI_API ImGuiTextEditState
+cargo:warning=      |                  ^~~~~~~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui.cpp: In constructor ‘ImGuiIO::ImGuiIO()’:
+cargo:warning=src/cimgui/imgui/imgui.cpp:723:11: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct ImGuiIO’; use assignment or value-initialization instead [-Wclass-memaccess]
+cargo:warning=  723 |     memset(this, 0, sizeof(*this));
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui.cpp:528:
+cargo:warning=src/cimgui/imgui/imgui.h:676:8: note: ‘struct ImGuiIO’ declared here
+cargo:warning=  676 | struct ImGuiIO
+cargo:warning=      |        ^~~~~~~
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+DEBUG = Some("true")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "src/cimgui/imgui/" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui_draw.o" "-c" "src/cimgui/imgui/imgui_draw.cpp"
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:17:
+cargo:warning=src/cimgui/imgui/imgui_internal.h: In constructor ‘ImGuiTextEditState::ImGuiTextEditState()’:
+cargo:warning=src/cimgui/imgui/imgui_internal.h:299:61: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct ImGuiTextEditState’; use assignment or value-initialization instead [-Wclass-memaccess]
+cargo:warning=  299 |     ImGuiTextEditState()                            { memset(this, 0, sizeof(*this)); }
+cargo:warning=      |                                                       ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_internal.h:285:18: note: ‘struct ImGuiTextEditState’ declared here
+cargo:warning=  285 | struct IMGUI_API ImGuiTextEditState
+cargo:warning=      |                  ^~~~~~~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp: In member function ‘void ImDrawList::ClearFreeMemory()’:
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:130:27: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘ImVector<ImDrawChannel>::value_type’ {aka ‘struct ImDrawChannel’}; use assignment or value-initialization instead [-Wclass-memaccess]
+cargo:warning=  130 |         if (i == 0) memset(&_Channels[0], 0, sizeof(_Channels[0]));  // channel 0 is a copy of CmdBuffer/IdxBuffer, don't destruct again
+cargo:warning=      |                     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:1074:8: note: ‘ImVector<ImDrawChannel>::value_type’ {aka ‘struct ImDrawChannel’} declared here
+cargo:warning= 1074 | struct ImDrawChannel
+cargo:warning=      |        ^~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp: In member function ‘void ImDrawList::ChannelsSplit(int)’:
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:255:11: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘ImVector<ImDrawChannel>::value_type’ {aka ‘struct ImDrawChannel’}; use assignment or value-initialization instead [-Wclass-memaccess]
+cargo:warning=  255 |     memset(&_Channels[0], 0, sizeof(ImDrawChannel));
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:1074:8: note: ‘ImVector<ImDrawChannel>::value_type’ {aka ‘struct ImDrawChannel’} declared here
+cargo:warning= 1074 | struct ImDrawChannel
+cargo:warning=      |        ^~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp: In member function ‘void ImDrawList::ChannelsSetCurrent(int)’:
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:315:11: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘class ImVector<ImDrawCmd>’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+cargo:warning=  315 |     memcpy(&_Channels.Data[_ChannelsCurrent].CmdBuffer, &CmdBuffer, sizeof(CmdBuffer)); // copy 12 bytes, four times
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:786:7: note: ‘class ImVector<ImDrawCmd>’ declared here
+cargo:warning=  786 | class ImVector
+cargo:warning=      |       ^~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:316:11: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘class ImVector<short unsigned int>’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+cargo:warning=  316 |     memcpy(&_Channels.Data[_ChannelsCurrent].IdxBuffer, &IdxBuffer, sizeof(IdxBuffer));
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:786:7: note: ‘class ImVector<short unsigned int>’ declared here
+cargo:warning=  786 | class ImVector
+cargo:warning=      |       ^~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:318:11: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘class ImVector<ImDrawCmd>’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+cargo:warning=  318 |     memcpy(&CmdBuffer, &_Channels.Data[_ChannelsCurrent].CmdBuffer, sizeof(CmdBuffer));
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:786:7: note: ‘class ImVector<ImDrawCmd>’ declared here
+cargo:warning=  786 | class ImVector
+cargo:warning=      |       ^~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:319:11: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘class ImVector<short unsigned int>’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+cargo:warning=  319 |     memcpy(&IdxBuffer, &_Channels.Data[_ChannelsCurrent].IdxBuffer, sizeof(IdxBuffer));
+cargo:warning=      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=In file included from src/cimgui/imgui/imgui_draw.cpp:15:
+cargo:warning=src/cimgui/imgui/imgui.h:786:7: note: ‘class ImVector<short unsigned int>’ declared here
+cargo:warning=  786 | class ImVector
+cargo:warning=      |       ^~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui.h: In instantiation of ‘void ImVector<T>::reserve(int) [with T = ImDrawChannel]’:
+cargo:warning=src/cimgui/imgui/imgui.h:820:92:   required from ‘void ImVector<T>::resize(int) [with T = ImDrawChannel]’
+cargo:warning=src/cimgui/imgui/imgui_draw.cpp:249:25:   required from here
+cargo:warning=src/cimgui/imgui/imgui.h:825:15: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of non-trivially copyable type ‘struct ImDrawChannel’; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+cargo:warning=  825 |         memcpy(new_data, Data, (size_t)Size * sizeof(value_type));
+cargo:warning=      |         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cargo:warning=src/cimgui/imgui/imgui.h:1074:8: note: ‘struct ImDrawChannel’ declared here
+cargo:warning= 1074 | struct ImDrawChannel
+cargo:warning=      |        ^~~~~~~~~~~~~
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+DEBUG = Some("true")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "src/cimgui/imgui/" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui_demo.o" "-c" "src/cimgui/imgui/imgui_demo.cpp"
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp: In function ‘void ImGui::ShowTestWindow(bool*)’:
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1339:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+cargo:warning= 1339 |             if (ImGui::CollapsingHeader("Category A")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |             ^~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1339:87: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+cargo:warning= 1339 |             if (ImGui::CollapsingHeader("Category A")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |                                                                                       ^~~~~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1340:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+cargo:warning= 1340 |             if (ImGui::CollapsingHeader("Category B")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |             ^~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1340:87: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+cargo:warning= 1340 |             if (ImGui::CollapsingHeader("Category B")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |                                                                                       ^~~~~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1341:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+cargo:warning= 1341 |             if (ImGui::CollapsingHeader("Category C")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |             ^~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1341:87: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+cargo:warning= 1341 |             if (ImGui::CollapsingHeader("Category C")) ImGui::Text("Blah blah blah"); ImGui::NextColumn();
+cargo:warning=      |                                                                                       ^~~~~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp: In member function ‘void ExampleAppConsole::Draw(const char*, bool*)’:
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1893:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+cargo:warning= 1893 |         if (ImGui::SmallButton("Add Dummy Error")) AddLog("[error] something went wrong"); ImGui::SameLine();
+cargo:warning=      |         ^~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1893:92: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+cargo:warning= 1893 |         if (ImGui::SmallButton("Add Dummy Error")) AddLog("[error] something went wrong"); ImGui::SameLine();
+cargo:warning=      |                                                                                            ^~~~~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1938:13: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+cargo:warning= 1938 |             while (input_end > InputBuf && input_end[-1] == ' ') input_end--; *input_end = 0;
+cargo:warning=      |             ^~~~~
+cargo:warning=src/cimgui/imgui/imgui_demo.cpp:1938:79: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+cargo:warning= 1938 |             while (input_end > InputBuf && input_end[-1] == ' ') input_end--; *input_end = 0;
+cargo:warning=      |                                                                               ^
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crs" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/libimgui.a" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui.o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui_draw.o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/imgui_demo.o"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=static=imgui
+cargo:rustc-link-search=native=/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=stdc++
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/cimgui.o" "-c" "src/cimgui/cimgui/cimgui.cpp"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/fontAtlas.o" "-c" "src/cimgui/cimgui/fontAtlas.cpp"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/drawList.o" "-c" "src/cimgui/cimgui/drawList.cpp"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crs" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/libcimgui.a" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/cimgui.o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/fontAtlas.o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/cimgui/drawList.o"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=static=cimgui
+cargo:rustc-link-search=native=/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "src/cimgui/imgui/" "-I" "src/cimgui/imgui/examples/libs/gl3w/" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/examples/libs/gl3w/GL/gl3w.o" "-c" "src/cimgui/imgui/examples/libs/gl3w/GL/gl3w.c"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "src/cimgui/imgui/" "-I" "src/cimgui/imgui/examples/libs/gl3w/" "-Wall" "-Wextra" "-o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/sdlgl3/imgui_impl_sdl_gl3.o" "-c" "src/sdlgl3/imgui_impl_sdl_gl3.cpp"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crs" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/libimgui_sdl_gl3.a" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/cimgui/imgui/examples/libs/gl3w/GL/gl3w.o" "/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out/src/sdlgl3/imgui_impl_sdl_gl3.o"
+exit status: 0
+TARGET = Some("x86_64-unknown-linux-gnu")
+cargo:rustc-link-lib=static=imgui_sdl_gl3
+cargo:rustc-link-search=native=/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/build/imgui-rs-d38ee5a6ae8ad53b/out

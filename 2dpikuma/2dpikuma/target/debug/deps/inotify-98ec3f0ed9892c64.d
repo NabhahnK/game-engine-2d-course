@@ -1,0 +1,12 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/libinotify-98ec3f0ed9892c64.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/libinotify-98ec3f0ed9892c64.rlib: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/inotify-98ec3f0ed9892c64.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/events.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/fd_guard.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/inotify.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/util.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inotify-0.10.2/src/watches.rs:

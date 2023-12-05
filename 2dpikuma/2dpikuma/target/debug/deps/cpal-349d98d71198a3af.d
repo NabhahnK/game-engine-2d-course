@@ -1,0 +1,13 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/libcpal-349d98d71198a3af.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/error.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/enumerate.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/null/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/platform/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/samples_formats.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/traits.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/cpal-349d98d71198a3af.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/error.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/enumerate.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/null/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/platform/mod.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/samples_formats.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/traits.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/error.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/mod.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/mod.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/alsa/enumerate.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/host/null/mod.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/platform/mod.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/samples_formats.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpal-0.15.2/src/traits.rs:

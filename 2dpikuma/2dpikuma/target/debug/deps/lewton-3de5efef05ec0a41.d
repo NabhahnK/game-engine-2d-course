@@ -1,0 +1,13 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/liblewton-3de5efef05ec0a41.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header_cached.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/huffman_tree.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/imdct.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/audio.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/bitpacking.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/inside_ogg.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/samples.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/lewton-3de5efef05ec0a41.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header_cached.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/huffman_tree.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/imdct.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/audio.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/bitpacking.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/inside_ogg.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/samples.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/header_cached.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/huffman_tree.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/imdct.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/audio.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/bitpacking.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/inside_ogg.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lewton-0.10.2/src/samples.rs:

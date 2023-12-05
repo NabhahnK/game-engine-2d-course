@@ -1,0 +1,6 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/libxi_unicode-0655d128fadb135f.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/tables.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/xi_unicode-0655d128fadb135f.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/tables.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xi-unicode-0.3.0/src/tables.rs:

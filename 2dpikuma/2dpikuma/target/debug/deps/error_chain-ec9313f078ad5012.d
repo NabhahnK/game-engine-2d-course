@@ -1,0 +1,11 @@
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/liberror_chain-ec9313f078ad5012.rmeta: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/error_chain.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/quick_main.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/backtrace.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/liberror_chain-ec9313f078ad5012.rlib: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/error_chain.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/quick_main.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/backtrace.rs
+
+/home/storm/rust-projects/2dpikuma/2dpikuma/target/debug/deps/error_chain-ec9313f078ad5012.d: /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/lib.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/error_chain.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/quick_main.rs /home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/backtrace.rs
+
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/lib.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/impl_error_chain_kind.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/error_chain.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/quick_main.rs:
+/home/storm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/error-chain-0.12.4/src/backtrace.rs:
